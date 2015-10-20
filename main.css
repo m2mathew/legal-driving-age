@@ -1,0 +1,73 @@
+body {
+	font-family: "Futura", sans serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
+}
+
+main {
+	flex: 1;
+	font-size: 1.25em;
+}
+
+main h4 {
+	padding-left: 2em;
+}
+
+header {
+	padding-left: 1em;
+	background-color: #86D5CB;
+	padding: 2em 0;
+	padding-left: 2em;
+}
+
+#title-pop {
+	text-shadow: 1px 3px 3px #aaa;
+}
+
+form {
+	margin: 4em;
+	line-height: 1.6em;
+}
+
+input {
+	padding: 0.5em;
+	margin-top: 1em;
+	font-size: 1em;
+}
+
+button {
+	margin-top: 1em;
+	padding: 0.6em 2em;
+	background-color: #DAFFFF;
+	color: #2A3C64;
+	font-size: 1em;
+	border: 1px solid #212B57;
+	border-radius: 10px
+}
+
+#message {
+	margin-left: 1em;
+	color: #067302;
+}
+
+#error-message {
+	margin-left: 1em;
+	color: #E82C0C;
+}
+
+footer {
+	padding-left: 2em;
+	font-size: 1.25em;
+	line-height: 1.6em;
+	color: #aaa;
+}
+
+footer a {
+	color: #212B57;
+	text-decoration: none;
+}
+
+
